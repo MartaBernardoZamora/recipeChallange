@@ -29,8 +29,29 @@ body{
         height: 20vh;
         object-fit: cover;
     }
-    &__resources__timmer p{
-        font-family: digit;
-        font-size: 3rem;
+    &__resources{
+        display: flex;
+        &__ingredients{
+            width: 70%;
+            display: flex;
+            align-items: flex-start;
+            fieldset{
+                width: 100%;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                align-content: center;
+                align-items: start;
+                leyend{
+                    grid-column: span 2;
+                }
+            }
+        }
+        &__timmer{
+            width: 30%;
+            p{
+                font-family: digit;
+                font-size: 3rem;
+            }
+        }
     }
 }

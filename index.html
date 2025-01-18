@@ -13,31 +13,65 @@
     <div class="main">
         <img  class="main__img" src="./src/assets/img/receta.jpg" alt="revuelto de ajos tiernos">
         <section class="main__resources">
-            <div class="main__resources__ingredients">
-                <h2>INGREDIENTES</h2>
-                <input type="checkbox" class="main__resources__ingredients__ingredient">8 huevos</input>
-                <input type="checkbox" class="main__resources__ingredients__ingredient">1 manojo de ajos tiernos</input>
-                <input type="checkbox" class="main__resources__ingredients__ingredient">200 gramos de champiñones</input>
-                <input type="checkbox" class="main__resources__ingredients__ingredient">2 cucharadas de aceite de oliva</input>
-                <input type="checkbox" class="main__resources__ingredients__ingredient">Sal</input>
-                <input type="checkbox" class="main__resources__ingredients__ingredient">Pimienta</input>
-                <input type="checkbox" class="main__resources__ingredients__ingredient">2 ramitas de perejil</input>
+            <div class="main__resources__ingredients">               
+                <fieldset>
+                    <leyend><h2>INGREDIENTES</h2></leyend>           
+                    <div>                    
+                        <input type="checkbox" class="main__resources__ingredients__ingredient" id="ingredient1"/>
+                        <label for="ingredient1">8 huevos</label>
+                    </div>                  
+                    <div>
+                        <input type="checkbox" class="main__resources__ingredients__ingredient" id="ingredient2"/>
+                        <label for="ingredient2">1 manojo de ajos tiernos</label>
+                    </div>
+                    <div>                    
+                        <input type="checkbox" class="main__resources__ingredients__ingredient" id="ingredient3"/>
+                        <label for="ingredient3">200 gramos de champiñones</label>
+                    </div>                  
+                    <div>
+                        <input type="checkbox" class="main__resources__ingredients__ingredient" id="ingredient4"/>
+                        <label for="ingredient4">2 cucharadas de aceite de oliva</label>
+                    </div>
+                    <div>                    
+                        <input type="checkbox" class="main__resources__ingredients__ingredient" id="ingredient5"/>
+                        <label for="ingredient5">Sal y pimienta</label>
+                    </div>                  
+                    <div>
+                        <input type="checkbox" class="main__resources__ingredients__ingredient" id="ingredient6"/>
+                        <label for="ingredient6">2 ramitas de perejil</label>
+                    </div>
+                </fieldset>
+            </div>
             <div class="main__resources__timmer">
                 <h2>Tiempo</h2>
                 <div class="main__resources__timmer__total">
+                    <img src="./src/assets/img/clockIcon.png" alt="" class="main__resources__timmer__total__icon">
                     <p>0:15</p>
                 </div>
                 <div class="main__resources__timmer__settime">
+                    <img src="./src/assets/img/hourglassIcon.png" alt="" class="main__resources__timmer__settime__icon">
                     <p >0:00</p>
                 </div>
             </div>
         </section>
         <section class="main__preparation">
             <h2>PREPARACIÓN</h2>
-            <article class="main__preparation__step"></article>
-            <article class="main__preparation__step"></article>
-            <article class="main__preparation__step"></article>
-            <article class="main__preparation__step"></article>
+            <article class="main__preparation__step">
+                <p class="main__preparation__step__number">1</p>
+                <p class="main__preparation__step__text"> Limpia los ajos tiernos retirando las raíces y la parte verde más oscura y los champiñones eliminando la parte terrosa del tallo, sécalos muy bien con papel de cocina y córtalos en láminas.</p>
+            </article>
+            <article class="main__preparation__step">
+                <p class="main__preparation__step__number">2</p>
+                <p class="main__preparation__step__text">Lava el perejil y sécalo. Reserva unas hojas para decorar el plato al final y pica finas las demás. Casca los huevos en un cuenco, salpimiéntalos y aromatiza con el perejil picado. Bátelos ligeramente con las varillas manuales.</p>
+            </article>
+            <article class="main__preparation__step">
+                <p class="main__preparation__step__number">3</p>
+                <p class="main__preparation__step__text">Pon al fuego una sartén con el aceite y cuando esté bien caliente, añade los ajetes y los champiñones. Salpimienta y saltéalos unos 5 minutos, removiendo de vez en cuando con una cuchara de madera.</p>
+            </article>
+            <article class="main__preparation__step">
+                <p class="main__preparation__step__number">4</p>
+                <p class="main__preparation__step__text">Incorpora la mezcla de huevos y prosigue la cocción, sin dejar de remover, hasta que empiecen a cuajarse; deben quedar melosos. Reparte el revuelto en platos o cazuelitas, decóralo con el perejil reservado y sírvelo en seguida.</p>
+            </article>
         </section>
     </div>
     <div class="footer"></div>

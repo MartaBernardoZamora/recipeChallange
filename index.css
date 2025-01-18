@@ -31,6 +31,27 @@ body {
   height: 20vh;
   object-fit: cover;
 }
+.main__resources {
+  display: flex;
+}
+.main__resources__ingredients {
+  width: 70%;
+  display: flex;
+  align-items: flex-start;
+}
+.main__resources__ingredients fieldset {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+  align-items: start;
+}
+.main__resources__ingredients fieldset leyend {
+  grid-column: span 2;
+}
+.main__resources__timmer {
+  width: 30%;
+}
 .main__resources__timmer p {
   font-family: digit;
   font-size: 3rem;

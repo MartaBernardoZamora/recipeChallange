@@ -14,7 +14,8 @@ function handleMinuteTime(){
     const getTime= Number(counterTime.textContent.slice(2))-1;
     const setTime=getTime.toString().padStart(2, '0');
     counterTime.textContent=`0:${setTime}`;
-    setTime=='00' && handleEndTimmer("Comenzar") && alert("Tiempo finalizado");
+    setTime=='00' && handleEndTimmer("Comenzar");
+    setTime=='00' && alert("Tiempo finalizado");
 }
 function handleEndTimmer(buttonText){
     clearInterval(secondsMark);

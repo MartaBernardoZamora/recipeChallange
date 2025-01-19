@@ -119,3 +119,29 @@ button{
         }
     }
 }
+.footer{
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.7rem;
+    div{
+        display: flex;
+        align-items: center;
+        box-sizing: border-box;
+        text-wrap: nowrap;
+        *{
+            margin: 0 1%;
+        }
+    }
+    img{
+        height: 1rem;
+    }
+    
+    &__div--redes{
+        img{
+            padding: 0.2rem;
+            height: 2rem;
+        }
+    }
+}
